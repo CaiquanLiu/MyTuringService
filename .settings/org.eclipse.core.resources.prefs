@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/common_params.py=utf-8
+encoding//src/http_client.py=utf-8
+encoding//src/test.py=utf-8
+encoding//src/tornado_server.py=utf-8
+encoding//src/turing/turing.py=utf-8
+encoding//src/utils/http_request.py=utf-8
+encoding/<project>=UTF-8
