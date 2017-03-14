@@ -20,7 +20,7 @@ class HttpRequest(object):
         self.url = params
         
     def get(self, params):    
-        return requests.get(self.URL, params=params)
+        return requests.get(self.url, params=params)
     
     def post(self, params):
         return requests.post(self.url, data=params)
