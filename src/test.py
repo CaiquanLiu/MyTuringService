@@ -1,39 +1,19 @@
-# coding:utf-8
-# 图灵接口测试
-# from turing.turing import Turing
-# 
-# turing = Turing()
-# response = turing.request("今天天气怎么样呀？")
-# print response.text
+#coding:utf-8
+'''
+Created on 2017年3月16日
 
-# finalseg分词测试
-# from utils.word_seg_finalseg import Finalseg
-# 
-# seg=Finalseg()
-# 
-# sentence="请给我讲一个故事"
-# 
-# rst=seg.cut(sentence)
-# 
-# print "/ ".join(rst)
-
-# TTS token测试
-# import json
-# from utils.tts import MyTts
-# tts = MyTts()
-# 
-# # print tts.get_token()
-# tts.voice_synth("妈蛋！你个二货！")
-
-#Wechat token测试
-from wechat.material_operation import MaterialOperation
-
-material_operation=MaterialOperation()
-
-# print material_operation.get_token()
-print material_operation.upload("./voice.mp3")
-
-
-
-
-    
+@author: liucaiquan
+'''
+from mongodb.mongodb import MongoDB
+if __name__ == '__main__':
+    db = MongoDB("127.0.0.1")
+     
+    db.init()
+     
+    infor1 = {"name": "eddy", "age": 31}
+    infor2 = {"name":"cissy", "age":26}
+     
+    db.insert(infor1)
+    db.insert(infor2)
+     
+    print db.find({"name":"eddy"})

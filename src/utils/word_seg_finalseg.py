@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 '''
 Created on 2017年3月14日
 
@@ -17,5 +17,6 @@ class Finalseg(object):
         '''
         
     def cut(self, sentence):
-        return finalseg.cut(sentence)
+        cut_rst = finalseg.cut(sentence)
+        return "/ ".join(cut_rst)
         

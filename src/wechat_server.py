@@ -12,7 +12,10 @@ class MainHandler(tornado.web.RequestHandler):
     def post(self):
 #         print self.request.body
         rst = self.process(self.request.body)
-        print 'process rst: '+rst
+        print 'process rst: ' + rst
+        
+        if(rst is None):
+            rst = "process failed"
         self.write(rst)
         
     # post处理函数

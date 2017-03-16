@@ -1,8 +1,8 @@
-process_status=$(ps -ef|grep python|grep tornado_server.py)
+process_status=$(ps -ef|grep python|grep webpage_server.py)
 
 array=($process_status)
 
-echo "stop tornado service!"
+echo "stop webpage service!"
 
 kill -9 ${array[1]}
 

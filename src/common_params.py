@@ -1,7 +1,14 @@
-#coding:utf-8
-HTTP_SERVER_IP='120.25.220.14'
+# coding:utf-8
+# aliyun
+HTTP_SERVER_IP = '120.25.220.14'
+
+# home
 # HTTP_SERVER_IP='192.168.158.128'
-HTTP_SERVER_PORT='8888'
+
+# desk
+HTTP_SERVER_IP = '172.18.137.12'
+
+HTTP_SERVER_PORT = '8888'
 '''
 post请求的数据格式:
 {KEY_REQUEST_TYPE:value, ...... ,..}

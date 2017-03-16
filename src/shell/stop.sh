@@ -1,0 +1,2 @@
+source stop_wechat_server.sh
+source stop_webpage_server.sh
