@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/common_params.py=utf-8
 encoding//src/http_client.py=utf-8
+encoding//src/machine_learning/scikit_learn.py=utf-8
 encoding//src/moduletests/finalseg.py=utf-8
 encoding//src/moduletests/mongodb.py=utf-8
 encoding//src/moduletests/tts.py=utf-8
