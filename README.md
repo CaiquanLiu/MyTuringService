@@ -1,8 +1,21 @@
-# MyTuringService
-基于Python/Tornado的图灵服务(个人机器学习平台)
+# 基于Python/Tornado的图灵服务(个人机器学习平台)
+基于Tornado的机器学习平台，用于基于Python的机器学习算法和接口的实践和测试
 
-中文分词测试地址：
-http://120.25.220.14:8000/
+## 博客地址：
+<http://www.jianshu.com/u/bf03aa158e75>
 
-博客地址：
-http://www.jianshu.com/u/bf03aa158e75
+## 实现功能：
+* 实现基于Tornado的Web服务；
+* 添加服务启动和关闭的Shell脚本（控制台退出后，保障服务正常运行）
+* 接入Turing机器人接口测试；
+* 接入MongoDB测试；
+* 接入微信后台接口测试；
+* 接入requests http请求测试；
+* 接入百度TTS合成测试；
+* 接入finalseg分词测试；
+* 接入scikit-learn测试；
+
+## 测试方法：
+
+### 中文分词测试
+测试地址：<http://120.25.220.14:8000/>
