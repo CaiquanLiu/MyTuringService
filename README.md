@@ -14,6 +14,7 @@
 * 接入百度TTS合成测试；
 * 接入finalseg分词测试；
 * 接入scikit-learn测试；
+* 接入keras测试；
 
 ## 测试方法：
 
