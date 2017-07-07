@@ -2,7 +2,7 @@
 基于Tornado的机器学习平台，用于基于Python的机器学习算法和接口的实践和测试
 
 ## 博客地址：
-<http://www.jianshu.com/c/44bd4d82c0e0>
+<https://caiquanliu.github.io/tags/Eddy%E7%9A%84AI%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%97%85/>
 
 ## 实现功能：
 * 实现基于Tornado的Web服务；
