@@ -16,6 +16,7 @@
 * 接入keras测试；
 * 添加服务启动和关闭的Shell脚本（控制台退出后，保障服务正常运行）
 * 接入百度UNIT接口测试
+* 接入DuerOS（正在接入中）
 
 ## 环境/依赖：
 * 运行主机：阿里云ECS；
@@ -26,6 +27,7 @@
 * 中文分词库：Finalseg；
 * 机器学习Python库：Scikit-learn；
 * 神经网络Python库：TensorFlow+Keras；
+* Hyper（Http/2网络库）
 
 ### 中文分词测试
 测试地址：<http://120.25.220.14:8000/>
