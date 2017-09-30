@@ -29,6 +29,6 @@
 * 神经网络Python库：TensorFlow+Keras；
 * Hyper（Http/2网络库）
 
-### 关注微信公众号可以进行聊天测试
+## 关注微信公众号可以进行聊天测试
 ![](./assets/MyAI_Wechat_QRC.PNG)
 
