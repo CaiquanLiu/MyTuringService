@@ -29,5 +29,6 @@
 * 神经网络Python库：TensorFlow+Keras；
 * Hyper（Http/2网络库）
 
-### 中文分词测试
-测试地址：<http://120.25.220.14:8000/>
+### 关注微信公众号可以进行聊天测试
+![](./assets/MyAI_Wechat_QRC.PNG)
+
