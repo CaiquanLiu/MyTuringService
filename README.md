@@ -32,3 +32,5 @@
 ## 关注微信公众号可以进行聊天测试
 ![](./assets/MyAI_Wechat_QRC.PNG)
 
+## 运行效果
+![](./assets/Chat_Demo.jpeg)
